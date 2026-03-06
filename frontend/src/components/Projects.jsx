@@ -35,7 +35,7 @@ export default function Projects({ data }) {
 
                 <div className="projects-grid">
                     {filtered.map((project) => (
-                        <article key={project.id} className="project-card glass-card animate-in">
+                        <article key={project.id} className="project-card glass-card visible">
                             <div className="project-image-wrapper">
                                 <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
                                 <div className="project-image-overlay">
