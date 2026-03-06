@@ -40,7 +40,7 @@ export default function Navbar() {
             <div className="navbar-inner container">
                 <button className="nav-logo" onClick={() => scrollTo('hero')}>
                     <span className="logo-bracket">&lt;</span>
-                    <span className="logo-text">AJ</span>
+                    <span className="logo-text">Dk</span>
                     <span className="logo-bracket">/&gt;</span>
                 </button>
 
