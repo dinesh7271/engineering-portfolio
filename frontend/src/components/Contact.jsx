@@ -7,12 +7,26 @@ export default function Contact({ data }) {
 
     if (!data) return null;
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // In a real app, you'd POST to the backend
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 3000);
-        setForm({ name: '', email: '', message: '' });
+
+        try {
+            const response = await fetch("https://formspree.io/f/xvgznoag", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(form)
+            });
+
+            if (response.ok) {
+                setSubmitted(true);
+                setForm({ name: '', email: '', message: '' });
+                setTimeout(() => setSubmitted(false), 5000);
+            } else {
+                alert("Oops! There was a problem submitting your form");
+            }
+        } catch (error) {
+            alert("Oops! There was a problem connecting to the server");
+        }
     };
 
     return (
