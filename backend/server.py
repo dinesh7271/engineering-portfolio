@@ -94,10 +94,26 @@ PROJECTS = [
 EDUCATION = [
     {
         "id": 1,
+        "year": "Feb 2025",
+        "degree": "Web Development Intern",
+        "institution": "Vault of Codes",
+        "description": "Completed a month-long intensive internship focused on responsive web design, Google Sheets integration, and frontend development workflows.",
+        "type": "experience",
+    },
+    {
+        "id": 2,
+        "year": "2024",
+        "degree": "Hackathon Winner - AquaWatch CBE",
+        "institution": "KPR Institute of Engineering and Technology",
+        "description": "Built an AI-Based Risk Prediction Dashboard in 18 hours using Random Forest and LSTM models to predict water-borne disease outbreaks.",
+        "type": "achievement",
+    },
+    {
+        "id": 3,
         "year": "2024 — Present",
         "degree": "B.E. in Computer Science & Engineering",
         "institution": "V.S.B. COLLEGE OF ENGINEERING TECHNICAL CAMPUS",
-        "description": "Currently in my 2nd year. Deepening knowledge in Algorithms, AI fundamentals, and Cybersecurity.",
+        "description": "Currently in my 2nd year. Gaining deep knowledge in Data Structures, AI fundamentals, and Cyber Security while maintaining active participation in tech events.",
         "type": "education",
     },
 ]
