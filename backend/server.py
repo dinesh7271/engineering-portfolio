@@ -123,7 +123,7 @@ CONTACT = {
     "location": "India",
     "social": {
         "github": "https://github.com/dinesh7271",
-        "linkedin": "https://www.linkedin.com/in/dineshkumar-m-6aaa84379/",
+        "linkedin": "https://www.linkedin.com/in/dineshkumar-m-6aaa84379",
         "twitter": "https://twitter.com",
         "instagram": "https://instagram.com",
     },
