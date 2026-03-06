@@ -10,7 +10,8 @@
 
 .navbar.scrolled {
     padding: 12px 0;
-    background: rgba(6, 8, 15, 0.85);
+    background: rgba(30, 35, 38, 0.85);
+    /* Everforest background */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-subtle);
@@ -76,7 +77,8 @@
 
 .nav-link:hover {
     color: var(--text-primary);
-    background: rgba(108, 99, 255, 0.08);
+    background: rgba(167, 192, 128, 0.08);
+    /* Everforest green */
 }
 
 .nav-link.active {

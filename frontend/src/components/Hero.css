@@ -24,7 +24,8 @@
 .hero-orb-1 {
     width: 500px;
     height: 500px;
-    background: rgba(108, 99, 255, 0.12);
+    background: rgba(167, 192, 128, 0.08);
+    /* Green */
     top: -100px;
     left: -200px;
     animation: float 8s ease-in-out infinite;
@@ -33,7 +34,8 @@
 .hero-orb-2 {
     width: 400px;
     height: 400px;
-    background: rgba(0, 212, 170, 0.08);
+    background: rgba(131, 192, 146, 0.06);
+    /* Aqua */
     bottom: -100px;
     right: -150px;
     animation: float 10s ease-in-out infinite 2s;
@@ -42,7 +44,8 @@
 .hero-orb-3 {
     width: 300px;
     height: 300px;
-    background: rgba(255, 107, 157, 0.06);
+    background: rgba(127, 187, 179, 0.04);
+    /* Blue */
     top: 40%;
     left: 50%;
     animation: float 12s ease-in-out infinite 4s;
@@ -175,18 +178,12 @@
     padding: 6px;
     background: var(--gradient-hero);
     background-size: 300% 300%;
-    animation: gradient-shift 4s ease infinite, pulse-glow 3s ease-in-out infinite;
+    animation: gradient-shift 4s ease infinite;
 }
 
+/* Glow removed per user request */
 .hero-avatar-glow {
-    position: absolute;
-    inset: -20px;
-    border-radius: 50%;
-    background: var(--gradient-hero);
-    background-size: 300% 300%;
-    animation: gradient-shift 4s ease infinite;
-    filter: blur(40px);
-    opacity: 0.3;
+    display: none;
 }
 
 .hero-avatar {

@@ -4,29 +4,29 @@
    Design Tokens
    ═══════════════════════════════════════════ */
 :root {
-  /* Colors */
-  --bg-primary: #06080f;
-  --bg-secondary: #0c1018;
-  --bg-tertiary: #121826;
-  --bg-card: rgba(15, 21, 35, 0.7);
-  --bg-glass: rgba(15, 21, 35, 0.45);
+  /* Everforest Dark Hard Palette */
+  --bg-primary: #1e2326;
+  --bg-secondary: #272e33;
+  --bg-tertiary: #2e383c;
+  --bg-card: rgba(46, 56, 60, 0.7);
+  --bg-glass: rgba(30, 35, 38, 0.6);
 
-  --text-primary: #e8ecf4;
-  --text-secondary: #8892a8;
-  --text-muted: #505a6e;
+  --text-primary: #d3c6aa;
+  --text-secondary: #a7b0ae;
+  --text-muted: #859289;
 
-  --accent-primary: #6c63ff;
-  --accent-secondary: #00d4aa;
-  --accent-tertiary: #ff6b9d;
-  --accent-glow: rgba(108, 99, 255, 0.25);
-  --accent-glow-secondary: rgba(0, 212, 170, 0.2);
+  --accent-primary: #a7c080; /* Green */
+  --accent-secondary: #83c092; /* Aqua */
+  --accent-tertiary: #dbbc7f; /* Sand */
+  --accent-glow: rgba(167, 192, 128, 0.1);
+  --accent-glow-secondary: rgba(131, 192, 146, 0.1);
 
-  --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-hover: rgba(108, 99, 255, 0.3);
+  --border-subtle: rgba(71, 82, 88, 0.4);
+  --border-hover: rgba(167, 192, 128, 0.5);
 
-  --gradient-hero: linear-gradient(135deg, #6c63ff 0%, #00d4aa 50%, #ff6b9d 100%);
-  --gradient-card: linear-gradient(145deg, rgba(108, 99, 255, 0.08), rgba(0, 212, 170, 0.04));
-  --gradient-text: linear-gradient(135deg, #6c63ff, #00d4aa);
+  --gradient-hero: linear-gradient(135deg, #a7c080 0%, #83c092 50%, #7fbbb3 100%);
+  --gradient-card: linear-gradient(145deg, rgba(167, 192, 128, 0.05), rgba(131, 192, 146, 0.03));
+  --gradient-text: linear-gradient(135deg, #a7c080, #83c092);
 
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -202,7 +202,7 @@ img { max-width: 100%; display: block; }
 .glass-card:hover {
   border-color: var(--border-hover);
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 30px var(--accent-glow);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
 }
 
 .gradient-btn {
