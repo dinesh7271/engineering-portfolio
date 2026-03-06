@@ -11,7 +11,7 @@ export default function Contact({ data }) {
         e.preventDefault();
 
         try {
-            const response = await fetch("https://formspree.io/f/xvgznoag", {
+            const response = await fetch("https://formspree.io/f/xaqpyjzk", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(form)
@@ -81,6 +81,7 @@ export default function Contact({ data }) {
                             <label htmlFor="name" className="form-label">Name</label>
                             <input
                                 id="name"
+                                name="name"
                                 type="text"
                                 className="form-input"
                                 placeholder="Your name"
@@ -93,6 +94,7 @@ export default function Contact({ data }) {
                             <label htmlFor="email" className="form-label">Email</label>
                             <input
                                 id="email"
+                                name="email"
                                 type="email"
                                 className="form-input"
                                 placeholder="your@email.com"
@@ -105,6 +107,7 @@ export default function Contact({ data }) {
                             <label htmlFor="message" className="form-label">Message</label>
                             <textarea
                                 id="message"
+                                name="message"
                                 className="form-input form-textarea"
                                 placeholder="Tell me about your project..."
                                 rows={5}
