@@ -23,7 +23,7 @@ ABOUT = {
     "resumeUrl": "#",
     "avatarUrl": "/profile.jpg",
     "stats": [
-        {"label": "Projects", "value": "5+"},
+        {"label": "Projects", "value": "2"},
         {"label": "Learning", "value": "24/7"},
         {"label": "Commits", "value": "100+"},
         {"label": "Tech Stack", "value": "5+"},
