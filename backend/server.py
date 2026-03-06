@@ -103,9 +103,9 @@ EDUCATION = [
     {
         "id": 2,
         "year": "2024",
-        "degree": "Hackathon Winner - AquaWatch CBE",
+        "degree": "Hackathon Project - AquaWatch CBE",
         "institution": "KPR Institute of Engineering and Technology",
-        "description": "Built an AI-Based Risk Prediction Dashboard in 18 hours using Random Forest and LSTM models to predict water-borne disease outbreaks.",
+        "description": "Developed an AI-Based Risk Prediction Dashboard in 18 hours using Random Forest and LSTM models to predict water-borne disease outbreaks.",
         "type": "achievement",
     },
     {
