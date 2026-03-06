@@ -47,7 +47,6 @@ SKILLS = [
             {"name": "Artificial Intelligence", "level": 60},
             {"name": "Cybersecurity", "level": 65},
             {"name": "Full Stack Development", "level": 70},
-            {"name": "Cloud Computing", "level": 55},
         ],
     },
     {
