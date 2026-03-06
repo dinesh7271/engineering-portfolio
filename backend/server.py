@@ -10,7 +10,7 @@ CORS(app)
 
 ABOUT = {
     "name": "Dineshkumar M",
-    "title": "Computer Science Student | Exploring AI, Cybersecurity & App Development",
+    "title": "Computer Science Student | Exploring AI, Cybersecurity & Full Stack Development",
     "university": "V.S.B. COLLEGE OF ENGINEERING TECHNICAL CAMPUS",
     "branch": "Computer Science & Engineering",
     "year": "2nd Year",
@@ -18,7 +18,7 @@ ABOUT = {
         "I'm a curious mind in tech and a Computer Science student on a journey "
         "exploring AI, Cloud, and Cybersecurity. I'm a problem-solving enthusiast "
         "growing my skills in Java and Python, with a passion for building "
-        "innovative applications and securing the digital landscape."
+        "innovative Full Stack applications and securing the digital landscape."
     ),
     "resumeUrl": "#",
     "avatarUrl": "/profile.jpg",
@@ -46,7 +46,7 @@ SKILLS = [
         "items": [
             {"name": "Artificial Intelligence", "level": 60},
             {"name": "Cybersecurity", "level": 65},
-            {"name": "App Development", "level": 70},
+            {"name": "Full Stack Development", "level": 70},
             {"name": "Cloud Computing", "level": 55},
         ],
     },
@@ -64,29 +64,30 @@ SKILLS = [
 PROJECTS = [
     {
         "id": 1,
-        "title": "Smart AI Portfolio",
+        "title": "EditKaro.in Portfolio",
         "description": (
-            "A modern, highly-responsive portfolio website built with React and a "
-            "Python/Flask backend to showcase technical journey and skills."
+            "A comprehensive portfolio platform developed for a video editing and marketing agency. "
+            "Features advanced filtering, dynamic content categorization, and a sleek dark-themed design."
         ),
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
-        "tags": ["React", "Flask", "Vite"],
-        "category": "fullstack",
-        "github": "https://github.com",
-        "live": "#",
+        "image": "/editkaro-screenshot.png",
+        "tags": ["React", "CSS3", "JavaScript", "Responsive Design"],
+        "category": "frontend",
+        "github": "https://github.com/dinesh7271",
+        "live": "https://editkaro.in",
     },
     {
         "id": 2,
-        "title": "Network Security Tool",
+        "title": "AquaWatch CBE - AI Outbreak Prediction",
         "description": (
-            "A prototype tool for basic network vulnerability scanning and "
-            "security assessment developed as part of cybersecurity exploration."
+            "An AI-driven early warning system for water-borne diseases in Coimbatore. "
+            "Built during an 18-hour hackathon, it uses Random Forest & LSTM models to predict "
+            "outbreak risks 7-14 days in advance with high confidence."
         ),
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-        "tags": ["Python", "Networking"],
-        "category": "cybersecurity",
-        "github": "https://github.com",
-        "live": "#",
+        "image": "/aquawatch-cbe.png",
+        "tags": ["React", "FastAPI", "Python", "Machine Learning"],
+        "category": "ml",
+        "github": "https://github.com/dinesh7271",
+        "live": "https://www.linkedin.com/posts/dineshkumar-m-6aaa84379_hackathon-ai-machinelearning-activity-7431224501108965376-gsc1",
     },
 ]
 
@@ -103,10 +104,10 @@ EDUCATION = [
 
 CONTACT = {
     "email": "mdineskumar7271@gmail.com",
-    "phone": "+91 XXXXX XXXXX",
+    "phone": "+91 8870672615",
     "location": "India",
     "social": {
-        "github": "https://github.com/dineshkumar",
+        "github": "https://github.com/dinesh7271",
         "linkedin": "https://www.linkedin.com/in/dineshkumar-m-6aaa84379/",
         "twitter": "https://twitter.com",
         "instagram": "https://instagram.com",
