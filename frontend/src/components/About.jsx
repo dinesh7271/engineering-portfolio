@@ -51,7 +51,7 @@ export default function About({ data }) {
                             </div>
                         </div>
 
-                        <a href={data.resumeUrl} className="gradient-btn" target="_blank" rel="noreferrer">
+                        <a href={data.resumeUrl} className="gradient-btn" target="_blank" rel="noreferrer" download="Dineshkumar_M_Resume.pdf">
                             📄 Download Resume
                         </a>
                     </div>

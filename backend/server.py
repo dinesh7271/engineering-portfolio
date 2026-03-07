@@ -20,7 +20,7 @@ ABOUT = {
         "growing my skills in Java and Python, with a passion for building "
         "innovative Full Stack applications and securing the digital landscape."
     ),
-    "resumeUrl": "#",
+    "resumeUrl": "/Dineshkumar_M_Resume.pdf",
     "avatarUrl": "/profile.jpg",
     "stats": [
         {"label": "Projects", "value": "2"},
