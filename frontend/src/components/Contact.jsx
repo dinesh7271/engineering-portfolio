@@ -69,7 +69,6 @@ export default function Contact({ data }) {
                                 <a key={name} href={url} className="social-link" target="_blank" rel="noreferrer" title={name}>
                                     {name === 'github' && '🐙'}
                                     {name === 'linkedin' && '💼'}
-                                    {name === 'instagram' && '📸'}
                                 </a>
                             ))}
                         </div>

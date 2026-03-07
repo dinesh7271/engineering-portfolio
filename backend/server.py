@@ -124,7 +124,6 @@ CONTACT = {
     "social": {
         "github": "https://github.com/dinesh7271",
         "linkedin": "https://www.linkedin.com/in/dineshkumar-m-6aaa84379",
-        "instagram": "https://instagram.com",
     },
 }
 
