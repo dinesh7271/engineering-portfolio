@@ -30,21 +30,21 @@ export default function About({ data }) {
 
                         <div className="about-details">
                             <div className="about-detail">
-                                <span className="detail-icon">🎓</span>
+                                <span className="detail-icon">🏛️</span>
                                 <div>
                                     <span className="detail-label">University</span>
                                     <span className="detail-value">{data.university}</span>
                                 </div>
                             </div>
                             <div className="about-detail">
-                                <span className="detail-icon">💻</span>
+                                <span className="detail-icon">🎓</span>
                                 <div>
                                     <span className="detail-label">Branch</span>
                                     <span className="detail-value">{data.branch}</span>
                                 </div>
                             </div>
                             <div className="about-detail">
-                                <span className="detail-icon">📅</span>
+                                <span className="detail-icon">🗓️</span>
                                 <div>
                                     <span className="detail-label">Year</span>
                                     <span className="detail-value">{data.year}</span>
