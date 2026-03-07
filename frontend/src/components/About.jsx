@@ -1,5 +1,6 @@
 import './About.css';
 import profileImg from '../assets/profile.jpg';
+import resumePdf from '../assets/Dineshkumar_M_Resume.pdf';
 
 
 export default function About({ data }) {
@@ -51,7 +52,7 @@ export default function About({ data }) {
                             </div>
                         </div>
 
-                        <a href={data.resumeUrl} className="gradient-btn" target="_blank" rel="noreferrer" download="Dineshkumar_M_Resume.pdf">
+                        <a href={resumePdf} className="gradient-btn" target="_blank" rel="noreferrer" download="Dineshkumar_M_Resume.pdf">
                             📄 Download Resume
                         </a>
                     </div>
