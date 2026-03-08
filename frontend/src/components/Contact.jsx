@@ -69,7 +69,8 @@ export default function Contact({ data }) {
                                 <a key={name} href={url} className="social-link" target="_blank" rel="noreferrer" title={name}>
                                     {name === 'github' && <i className="fa-brands fa-github"></i>}
                                     {name === 'linkedin' && <i className="fa-brands fa-linkedin"></i>}
-                                    {name !== 'github' && name !== 'linkedin' && name}
+                                    {name === 'instagram' && <i className="fa-brands fa-instagram"></i>}
+                                    {name !== 'github' && name !== 'linkedin' && name !== 'instagram' && name}
                                 </a>
                             ))}
                         </div>

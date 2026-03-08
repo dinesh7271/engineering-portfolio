@@ -39,6 +39,11 @@ export default function About({ data, social }) {
                                         <i className="fa-brands fa-linkedin"></i>
                                     </a>
                                 )}
+                                {social.instagram && (
+                                    <a href={social.instagram} target="_blank" rel="noreferrer" className="about-social-link" title="Instagram">
+                                        <i className="fa-brands fa-instagram"></i>
+                                    </a>
+                                )}
                             </div>
                         )}
 
