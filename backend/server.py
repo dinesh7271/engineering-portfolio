@@ -124,7 +124,7 @@ CONTACT = {
     "social": {
         "github": "https://github.com/dinesh7271",
         "linkedin": "https://www.linkedin.com/in/dineshkumar-m-6aaa84379",
-        "instagram": "https://www.instagram.com/",
+        "instagram": "https://www.instagram.com/_hawkeye_97_?igsh=MTRiaGI2dDA4Z3U3bA==",
     },
 }
 
