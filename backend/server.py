@@ -33,7 +33,7 @@ ABOUT = {
 SKILLS = [
     {
         "category": "Programming",
-        "icon": "💻",
+        "icon": "fa-solid fa-code",
         "items": [
             {"name": "Java", "level": 95},
             {"name": "C", "level": 90},
@@ -42,7 +42,7 @@ SKILLS = [
     },
     {
         "category": "Current Focus",
-        "icon": "🚀",
+        "icon": "fa-solid fa-fire",
         "items": [
             {"name": "Artificial Intelligence", "level": 60},
             {"name": "Cybersecurity", "level": 65},
@@ -51,7 +51,7 @@ SKILLS = [
     },
     {
         "category": "Frontend",
-        "icon": "🎨",
+        "icon": "fa-solid fa-laptop-code",
         "items": [
             {"name": "HTML / CSS", "level": 85},
             {"name": "JavaScript", "level": 70},

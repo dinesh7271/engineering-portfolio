@@ -91,7 +91,7 @@ export default function Hero({ data }) {
             <div className="hero-content container">
                 <div className="hero-text">
                     <p className="hero-greeting">
-                        <span className="greeting-wave">👋</span> Hello, I'm
+                        <span className="greeting-wave"><i className="fa-solid fa-hand-peace"></i></span> Hello, I'm
                     </p>
                     <h1 className="hero-name">{data.name}</h1>
                     <div className="hero-title-wrapper">
@@ -113,10 +113,10 @@ export default function Hero({ data }) {
 
                     <div className="hero-actions">
                         <a href="#projects" className="gradient-btn">
-                            View Projects <span>→</span>
+                            View Projects <i className="fa-solid fa-arrow-right"></i>
                         </a>
                         <a href="#contact" className="outline-btn">
-                            Let's Talk <span>💬</span>
+                            Let's Talk <i className="fa-solid fa-comment-dots"></i>
                         </a>
                     </div>
                 </div>
@@ -130,15 +130,15 @@ export default function Hero({ data }) {
                             className="hero-avatar"
                         />
                     </div>
-                    <div className="hero-badge hero-badge-1">⚡ Problem Solver</div>
-                    <div className="hero-badge hero-badge-2">🚀 Full Stack</div>
-                    <div className="hero-badge hero-badge-3">🧠 ML Enthusiast</div>
+                    <div className="hero-badge hero-badge-1"><i className="fa-solid fa-bolt"></i> Problem Solver</div>
+                    <div className="hero-badge hero-badge-2"><i className="fa-solid fa-rocket"></i> Full Stack</div>
+                    <div className="hero-badge hero-badge-3"><i className="fa-solid fa-brain"></i> AI Enthusiast</div>
                 </div>
             </div>
 
             <div className="hero-scroll-indicator">
                 <span className="scroll-text">Scroll Down</span>
-                <span className="scroll-arrow">↓</span>
+                <span className="scroll-arrow"><i className="fa-solid fa-chevron-down"></i></span>
             </div>
         </section>
     );

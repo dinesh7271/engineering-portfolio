@@ -40,11 +40,11 @@ export default function Projects({ data }) {
                                 <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
                                 <div className="project-image-overlay">
                                     <a href={project.github} className="project-overlay-btn" target="_blank" rel="noreferrer">
-                                        GitHub ↗
+                                        <i className="fa-brands fa-github"></i> GitHub
                                     </a>
                                     {project.live !== '#' && (
                                         <a href={project.live} className="project-overlay-btn live" target="_blank" rel="noreferrer">
-                                            Live ↗
+                                            <i className="fa-solid fa-arrow-up-right-from-square"></i> Live
                                         </a>
                                     )}
                                 </div>

@@ -42,21 +42,21 @@ export default function Contact({ data }) {
                     <div className="contact-info animate-in">
                         <div className="contact-card glass-card">
                             <div className="contact-item">
-                                <span className="contact-icon">📧</span>
+                                <span className="contact-icon"><i className="fa-solid fa-envelope"></i></span>
                                 <div>
                                     <span className="contact-label">Email</span>
                                     <a href={`mailto:${data.email}`} className="contact-value">{data.email}</a>
                                 </div>
                             </div>
                             <div className="contact-item">
-                                <span className="contact-icon">📱</span>
+                                <span className="contact-icon"><i className="fa-solid fa-phone"></i></span>
                                 <div>
                                     <span className="contact-label">Phone</span>
                                     <span className="contact-value">{data.phone}</span>
                                 </div>
                             </div>
                             <div className="contact-item">
-                                <span className="contact-icon">📍</span>
+                                <span className="contact-icon"><i className="fa-solid fa-location-dot"></i></span>
                                 <div>
                                     <span className="contact-label">Location</span>
                                     <span className="contact-value">{data.location}</span>
@@ -67,8 +67,9 @@ export default function Contact({ data }) {
                         <div className="social-links">
                             {Object.entries(data.social).map(([name, url]) => (
                                 <a key={name} href={url} className="social-link" target="_blank" rel="noreferrer" title={name}>
-                                    {name === 'github' && '🐙'}
-                                    {name === 'linkedin' && '💼'}
+                                    {name === 'github' && <i className="fa-brands fa-github"></i>}
+                                    {name === 'linkedin' && <i className="fa-brands fa-linkedin"></i>}
+                                    {name !== 'github' && name !== 'linkedin' && name}
                                 </a>
                             ))}
                         </div>

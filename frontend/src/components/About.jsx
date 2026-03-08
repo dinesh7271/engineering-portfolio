@@ -3,7 +3,7 @@ import profileImg from '../assets/profile.jpg';
 import resumePdf from '../assets/Dineshkumar_M_Resume.pdf';
 
 
-export default function About({ data }) {
+export default function About({ data, social }) {
     if (!data) return null;
 
     return (
@@ -26,25 +26,41 @@ export default function About({ data }) {
                     <div className="about-text-col animate-in">
                         <h3 className="about-name">{data.name}</h3>
                         <p className="about-role">{data.title}</p>
+                        
+                        {social && (
+                            <div className="about-social">
+                                {social.github && (
+                                    <a href={social.github} target="_blank" rel="noreferrer" className="about-social-link" title="GitHub">
+                                        <i className="fa-brands fa-github"></i>
+                                    </a>
+                                )}
+                                {social.linkedin && (
+                                    <a href={social.linkedin} target="_blank" rel="noreferrer" className="about-social-link" title="LinkedIn">
+                                        <i className="fa-brands fa-linkedin"></i>
+                                    </a>
+                                )}
+                            </div>
+                        )}
+
                         <p className="about-bio">{data.bio}</p>
 
                         <div className="about-details">
                             <div className="about-detail">
-                                <span className="detail-icon">🎓</span>
+                                <span className="detail-icon"><i className="fa-solid fa-graduation-cap"></i></span>
                                 <div>
                                     <span className="detail-label">University</span>
                                     <span className="detail-value">{data.university}</span>
                                 </div>
                             </div>
                             <div className="about-detail">
-                                <span className="detail-icon">💻</span>
+                                <span className="detail-icon"><i className="fa-solid fa-code"></i></span>
                                 <div>
                                     <span className="detail-label">Branch</span>
                                     <span className="detail-value">{data.branch}</span>
                                 </div>
                             </div>
                             <div className="about-detail">
-                                <span className="detail-icon">📅</span>
+                                <span className="detail-icon"><i className="fa-solid fa-calendar-days"></i></span>
                                 <div>
                                     <span className="detail-label">Year</span>
                                     <span className="detail-value">{data.year}</span>
@@ -53,7 +69,7 @@ export default function About({ data }) {
                         </div>
 
                         <a href={resumePdf} className="gradient-btn" target="_blank" rel="noreferrer" download="Dineshkumar_M_Resume.pdf">
-                            📄 Download Resume
+                            <i className="fa-solid fa-file-pdf"></i> Download Resume
                         </a>
                     </div>
                 </div>

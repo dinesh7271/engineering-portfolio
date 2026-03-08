@@ -46,7 +46,9 @@ export default function Skills({ data }) {
                     {data.map((cat, i) => (
                         <div key={i} className="skill-card glass-card animate-in" style={{ animationDelay: `${i * 0.15}s` }}>
                             <div className="skill-card-header">
-                                <span className="skill-icon">{cat.icon}</span>
+                                <span className="skill-icon">
+                                    {cat.icon.startsWith('fa-') ? <i className={cat.icon}></i> : cat.icon}
+                                </span>
                                 <h3 className="skill-category">{cat.category}</h3>
                             </div>
                             <div className="skill-items">

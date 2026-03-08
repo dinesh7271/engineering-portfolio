@@ -64,6 +64,23 @@
     font-size: 1rem;
 }
 
+.about-social {
+    display: flex;
+    gap: 16px;
+    margin: 8px 0 16px;
+}
+
+.about-social-link {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+}
+
+.about-social-link:hover {
+    color: var(--accent-primary);
+    transform: translateY(-3px);
+}
+
 /* Details */
 .about-details {
     display: flex;
@@ -89,7 +106,8 @@
 }
 
 .detail-icon {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--accent-primary);
     flex-shrink: 0;
 }
 

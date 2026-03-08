@@ -1,9 +1,9 @@
 import './Journey.css';
 
 const TYPE_ICONS = {
-    education: '🎓',
-    experience: '💼',
-    achievement: '🏆',
+    education: <i className="fa-solid fa-graduation-cap"></i>,
+    experience: <i className="fa-solid fa-briefcase"></i>,
+    achievement: <i className="fa-solid fa-trophy"></i>,
 };
 
 const TYPE_COLORS = {
@@ -29,7 +29,7 @@ export default function Journey({ data }) {
                     {data.map((item, i) => (
                         <div key={item.id} className={`timeline-item ${i % 2 === 0 ? 'left' : 'right'} animate-in`}>
                             <div className="timeline-dot" style={{ background: TYPE_COLORS[item.type] || 'var(--accent-primary)' }}>
-                                <span>{TYPE_ICONS[item.type] || '📌'}</span>
+                                <span>{TYPE_ICONS[item.type] || <i className="fa-solid fa-location-dot"></i>}</span>
                             </div>
                             <div className="timeline-card glass-card">
                                 <span className="timeline-year">{item.year}</span>

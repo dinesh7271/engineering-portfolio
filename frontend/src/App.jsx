@@ -59,7 +59,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero data={data.about} />
-        <About data={data.about} />
+        <About data={data.about} social={data.contact?.social} />
         <Skills data={data.skills} />
         <Projects data={data.projects} />
         <Journey data={data.education} />
