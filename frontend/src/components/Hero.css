@@ -277,11 +277,27 @@
     }
 
     .hero-avatar-ring {
-        width: 220px;
-        height: 220px;
+        width: min(280px, 70vw);
+        height: min(280px, 70vw);
     }
 
     .hero-badge {
         display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+    }
+    
+    .hero-actions .gradient-btn,
+    .hero-actions .outline-btn {
+        width: 100%;
+        justify-content: center;
     }
 }

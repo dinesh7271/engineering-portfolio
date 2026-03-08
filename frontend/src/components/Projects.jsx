@@ -42,11 +42,6 @@ export default function Projects({ data }) {
                                     <a href={project.github} className="project-overlay-btn" target="_blank" rel="noreferrer">
                                         <i className="fa-brands fa-github"></i> GitHub
                                     </a>
-                                    {project.live !== '#' && (
-                                        <a href={project.live} className="project-overlay-btn live" target="_blank" rel="noreferrer">
-                                            <i className="fa-solid fa-arrow-up-right-from-square"></i> Live
-                                        </a>
-                                    )}
                                 </div>
                             </div>
                             <div className="project-body">
